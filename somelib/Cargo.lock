@@ -3,12 +3,5 @@
 version = 3
 
 [[package]]
-name = "cargo-build-rs-rustflags"
-version = "0.1.0"
-dependencies = [
- "somelib",
-]
-
-[[package]]
 name = "somelib"
 version = "0.1.0"
