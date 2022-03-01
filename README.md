@@ -19,4 +19,5 @@ Default host: x86_64-unknown-linux-gnu
     Finished dev [unoptimized + debuginfo] target(s) in 0.60s
 fxsr,sse,sse2
 fxsr,sse,sse2
+
 ```
