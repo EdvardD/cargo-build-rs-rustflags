@@ -3,7 +3,7 @@
 See `[target.'cfg(target_arch="x86_64")']` in `.cargo/config.toml`
 If we specify target features under `[build]` it works right
 
-````
+```
 $ cat test.sh 
 #!/bin/bash -e
 
