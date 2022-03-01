@@ -1,5 +1,3 @@
-use somelib::get_13;
-
 fn main() {
-    println!("Hello, world: {}!", get_13());
+    println!("test value: {}", somelib::get_13());
 }
