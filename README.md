@@ -1,6 +1,7 @@
-# Cargo doen't pass target features to build.rs if they're specified only for the given cpu architecture.
-# See .cargo/config.toml: `[target.'cfg(target_arch="x86_64")']`
-# If we specify target features under `[build]` it works right
+# Cargo doen't pass target features to build.rs
+
+See .cargo/config.toml: `[target.'cfg(target_arch="x86_64")']`
+If we specify target features under `[build]` it works right
 
 ````
 $ ./test.sh 
