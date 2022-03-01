@@ -1,6 +1,6 @@
 # Cargo doen't pass target features to build.rs
 
-See .cargo/config.toml: `[target.'cfg(target_arch="x86_64")']`
+See `[target.'cfg(target_arch="x86_64")']` in `.cargo/config.toml`
 If we specify target features under `[build]` it works right
 
 ````
